@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Thunder Dads | Thornhill Elementary</title>
+<meta name="description" content="Thunder Dads: the dads and father figures of Thornhill Elementary in Oakland. Kids Night Out, fix-it projects, and bigger projects for the yard.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='12' fill='%23123A27'/%3E%3Cpath d='M13 4 6 14h5l-1 6 7-10h-5z' fill='%23F0B45C'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;650;700&display=swap" rel="stylesheet">
+<style>
+:root{--green:#1E5A3C;--deep:#123A27;--cream:#FAF6EE;--paper:#FFFFFF;--ink:#1B1A17;--muted:#5E5C56;--line:#E4DCCB;--amber:#C9791A;--sage:#DCE8DF;--slate:#44566A;--focus:#1E5A3C}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:17px;line-height:1.55;color:var(--ink);background:var(--cream)}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.15;margin:0 0 .4em;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.6vw,3rem)}h2{font-size:clamp(1.5rem,3vw,2rem)}h3{font-size:1.12rem;font-family:Inter,system-ui,sans-serif;font-weight:650}
+p{margin:0 0 1em}a{color:var(--green)}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:8px 12px;border-radius:6px;z-index:99}.skip:focus{left:8px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.poc{background:#0B261A;color:#F2EEE3;font-size:.85rem;padding:8px 0}.poc .wrap{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between}.poc a{color:#F2EEE3}
+header.top{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;min-height:64px;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:700;font-family:Fraunces,serif;font-size:1.2rem;line-height:1.1}
+.brand small{display:block;font-family:Inter,sans-serif;font-weight:500;font-size:.75rem;color:var(--muted);letter-spacing:.02em}
+.mark{width:36px;height:36px;border-radius:50%;background:var(--deep);display:grid;place-items:center;flex:none}.mark svg{width:18px;height:18px}
+nav.main{display:flex;gap:4px;flex-wrap:wrap}nav.main a{text-decoration:none;color:var(--ink);padding:8px 12px;border-radius:8px;font-weight:500}nav.main a[aria-current]{background:var(--sage);color:var(--deep)}nav.main a:hover{background:var(--cream)}
+.home nav.main{}@media(max-width:760px){.home nav.main{display:none}}
+.tabbar{display:none}@media(max-width:760px){.home .tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;bottom:0;left:0;right:0;background:var(--paper);border-top:1px solid var(--line);z-index:50;padding:6px 0 max(8px,env(safe-area-inset-bottom))}.tabbar a{text-decoration:none;color:var(--muted);font-size:.78rem;text-align:center;padding:6px 2px;display:grid;gap:3px;justify-items:center}.tabbar svg{width:22px;height:22px}.home{padding-bottom:72px}}
+.band{background:var(--deep);color:#F2EEE3;position:relative;overflow:hidden}
+.band .bolt{position:absolute;right:-30px;top:-20px;width:300px;height:420px;opacity:.10}@media(max-width:760px){.band .bolt{display:none}}
+.hero{padding-top:56px;padding-bottom:44px}.hero h1{max-width:30ch}.hero .lead{font-size:1.15rem;max-width:56ch}
+.band h1{color:#fff}.band .lead{color:#D3E2D7}
+.plain .hero{padding-top:44px;padding-bottom:18px}.plain .lead{color:var(--muted)}
+.eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--amber);font-weight:700;margin:0 0 10px}
+.band .eyebrow{color:#F0B45C}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:600;border:0;font:inherit;font-weight:600;cursor:pointer}
+.band .btn{background:#F0B45C;color:#1B1A17}.band .btn.ghost{background:transparent;color:#fff;border:1.5px solid #9DBBA7}
+.btn.ghost{background:transparent;color:var(--deep);border:1.5px solid var(--green)}
+.btn[aria-disabled=true]{background:#E9E3D5;color:var(--muted);cursor:not-allowed}
+section{padding:34px 0}section h2{margin-bottom:12px}.sub{color:var(--muted);max-width:62ch;margin-bottom:20px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card .ico{width:40px;height:40px;border-radius:10px;background:var(--sage);display:grid;place-items:center;margin-bottom:12px}.card .ico svg{width:22px;height:22px;color:var(--deep)}
+.card p{color:var(--muted);margin:0}
+.rule{border-left:3px solid var(--amber);padding:2px 0 2px 14px;color:var(--muted);margin:14px 0}
+.rule strong{color:var(--ink)}
+.event{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.event .when{font-family:Fraunces,serif;font-size:1.3rem;color:var(--deep);line-height:1.1}.event .when small{display:block;font-family:Inter,sans-serif;font-size:.8rem;color:var(--muted)}
+@media(max-width:640px){.event{grid-template-columns:1fr}}
+.lanes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 20px}
+.lane{border-left:3px solid var(--c);padding:2px 0 2px 12px}.lane b{display:block}.lane span{color:var(--muted);font-size:.92rem}
+.fix{--c:var(--green)}.fund{--c:var(--amber)}.find{--c:var(--slate)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}.filters button{border:1.5px solid var(--line);background:var(--paper);padding:8px 14px;border-radius:999px;font:inherit;font-size:.92rem;cursor:pointer}.filters button[aria-pressed=true]{background:var(--deep);color:#fff;border-color:var(--deep)}
+.board{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.proj{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:12px;padding:18px;display:grid;gap:8px;align-content:start}
+.proj[hidden]{display:none}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--c)}
+.proj h3{margin:0}.proj p{margin:0;color:var(--muted);font-size:.95rem}
+.meta{display:flex;gap:16px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:8px;margin-top:4px}.meta b{color:var(--ink);font-weight:600}
+.empty{color:var(--muted);padding:18px;border:1.5px dashed var(--line);border-radius:12px}
+form.req{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px}
+form.req .full{grid-column:1/-1}@media(max-width:640px){form.req{grid-template-columns:1fr}}
+form.req label{display:block;font-weight:600;font-size:.95rem;margin:0 0 5px}
+form.req input,form.req select,form.req textarea{width:100%;font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+form.req textarea{min-height:96px;resize:vertical}
+.done{display:none;border-left:3px solid var(--green);padding:4px 0 4px 14px;margin-top:16px}.done.show{display:block}
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:14px;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:14px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
+.steps li::before{content:counter(s);width:36px;height:36px;border-radius:50%;background:var(--sage);color:var(--deep);display:grid;place-items:center;font-family:Fraunces,serif;font-weight:600}
+.steps p{margin:4px 0 10px;color:var(--muted)}.steps p:last-child{margin-bottom:0}
+table.tbl{width:100%;border-collapse:collapse;background:var(--paper);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.95rem}
+table.tbl th,table.tbl td{text-align:left;vertical-align:top;padding:12px 16px;border-top:1px solid var(--line)}
+table.tbl th{background:var(--sage);color:var(--deep);font-weight:650;border-top:0}
+table.tbl td.n{font-family:Fraunces,serif;color:var(--deep);font-size:1.05rem;white-space:nowrap}
+@media(max-width:700px){table.tbl thead{display:none}table.tbl tr{display:block;border-top:8px solid var(--cream)}table.tbl td{display:block;border-top:0;padding:6px 16px}table.tbl td:first-child{padding-top:14px}table.tbl td:last-child{padding-bottom:14px}table.tbl td[data-l]::before{content:attr(data-l);display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}}
+.facts{list-style:none;padding:0;margin:0;background:var(--paper);border:1px solid var(--line);border-radius:14px}
+.facts li{padding:14px 18px;border-top:1px solid var(--line)}.facts li:first-child{border-top:0}.facts .src{display:block;font-size:.82rem;color:var(--muted);margin-top:2px}
+.idea{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;margin:0 0 14px}
+.idea .num{font-family:Fraunces,serif;color:var(--amber);font-size:1rem;font-weight:600}
+.idea h3{font-family:Fraunces,serif;font-size:1.35rem;font-weight:600;margin:2px 0 10px}
+.idea p{color:var(--ink)}.idea ul{margin:0 0 12px;padding-left:20px}.idea li{margin:4px 0}
+.next{font-weight:600;color:var(--deep);border-left:3px solid var(--green);padding-left:12px;margin:12px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem;margin:4px 0 0}.toc a{color:var(--deep)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 16px}
+.flow span{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:9px 13px;font-weight:600;font-size:.95rem}
+.flow i{font-style:normal;color:var(--amber);font-weight:700}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:760px){.two{grid-template-columns:1fr}}
+.calc{display:grid;grid-template-columns:1.3fr 1fr;gap:16px}@media(max-width:760px){.calc{grid-template-columns:1fr}}
+.calc .inputs{display:grid;gap:10px}
+.calc .row{display:grid;grid-template-columns:1fr 92px;gap:10px;align-items:center}
+.calc .row label{font-weight:600}.calc .row label small{display:block;font-weight:400;color:var(--muted);font-size:.85rem}
+.calc input{width:100%;font:inherit;padding:9px 10px;border:1.5px solid var(--line);border-radius:10px;text-align:right}
+.totals{background:var(--deep);color:#F2EEE3;border-radius:14px;padding:22px;display:grid;gap:12px;align-content:start}
+.totals div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(255,255,255,.15);padding-bottom:10px}
+.totals .net{border:0;font-size:1.35rem;font-family:Fraunces,serif;color:#fff}
+.totals small{color:#BFD3C5;font-size:.85rem}
+ul.src{padding-left:20px;font-size:.92rem}ul.src li{margin:6px 0;overflow-wrap:anywhere}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem;margin-top:20px}footer .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}footer a{color:var(--deep)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.card .rule{margin:14px 0 0}
+.goal{display:grid;grid-template-columns:auto 1fr;gap:44px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:28px 32px}
+@media(max-width:700px){.goal{grid-template-columns:1fr;gap:24px;padding:22px}}
+.thermo{display:flex;gap:14px;align-items:flex-start}
+.tcol{display:flex;flex-direction:column;align-items:center}
+.tube{position:relative;width:36px;height:260px;background:#F1EBDD;border:2px solid var(--line);border-bottom:0;border-radius:18px 18px 0 0;overflow:hidden}
+.tube .hi,.tube .lo{position:absolute;left:0;right:0;bottom:0;animation:fill 1.4s ease-out both}
+.tube .hi{height:var(--hi);background:repeating-linear-gradient(45deg,rgba(201,121,26,.55) 0 6px,rgba(201,121,26,.18) 6px 12px)}
+.tube .lo{height:var(--lo);background:var(--amber)}
+.bulb{width:60px;height:60px;border-radius:50%;background:var(--amber);border:2px solid #B86C12;margin-top:-6px}
+.scale{height:285px;display:flex;flex-direction:column;justify-content:space-between;font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:-11px}
+@keyframes fill{from{height:0}}
+@media(prefers-reduced-motion:reduce){.tube .hi,.tube .lo{animation:none}}
+.big-num{font-family:Fraunces,serif;font-size:clamp(2.6rem,6vw,3.6rem);color:var(--deep);line-height:1;margin:4px 0 12px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);margin:0 0 4px}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--amber)}.legend i.h{background:repeating-linear-gradient(45deg,rgba(201,121,26,.6) 0 3px,rgba(201,121,26,.2) 3px 6px)}
+.feature{border-left:3px solid var(--amber);padding-left:16px;margin-top:20px}.feature b{display:block;font-family:Fraunces,serif;font-size:1.3rem;font-weight:600;color:var(--ink);margin-bottom:4px}.feature p{color:var(--muted);margin:0}
+.big{--c:var(--deep)}.proj.big{background:#F3F7F4}@media(min-width:760px){.proj.big{grid-column:span 2}}
+.vote{margin-top:16px}.vote fieldset{border:0;padding:0;margin:10px 0 14px;display:grid;gap:8px}
+.vote label{display:flex;gap:10px;align-items:center;background:var(--cream);border:1.5px solid var(--line);border-radius:10px;padding:10px 14px;cursor:pointer;font-weight:500}
+.vote input{accent-color:var(--green);width:18px;height:18px}.vote label:has(input:checked){border-color:var(--green);background:var(--sage)}
+</style></head>
+<body class="home"><a class="skip" href="#main">Skip to content</a>
+<div class="poc"><div class="wrap"><span>Proof of concept for Thunder Dads. Draft content from October 2026; dates and links are set at launch.</span></div></div>
+<header class="top"><div class="wrap"><a class="brand" href="index.html"><span class="mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="#F0B45C"/></svg></span><span>Thunder Dads<small>Thornhill Elementary</small></span></a>
+<nav class="main" aria-label="Main"><a href="#why">About</a><a href="#goal">Goal</a><a href="#kno">Kids Night Out</a><a href="#projects">Projects</a><a href="#join">Join</a></nav></div></header>
+<main id="main">
+<div class="band"><svg class="bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="#F0B45C"/></svg>
+<div class="wrap hero">
+<p class="eyebrow">Thornhill Elementary, Oakland</p>
+<h1>Thornhill dads and father figures,<br>pitching in for our school.</h1>
+<p class="lead">Thunder Dads runs Kids Night Out every month, takes on fix-it jobs for teachers, and raises money for bigger projects on campus. This year's big one is a turf area for the yard.</p>
+<div class="ctas"><a class="btn" href="#join">Join Thunder Dads</a><a class="btn ghost" href="#request">Request a project</a></div>
+</div></div>
+
+<section id="goal"><div class="wrap">
+<div class="goal">
+<div class="thermo" role="img" aria-label="Thermometer showing about $3,000 to $4,000 toward a $10,000 goal">
+<div class="tcol"><div class="tube" style="--lo:30%;--hi:40%"><div class="hi"></div><div class="lo"></div></div><div class="bulb"></div></div>
+<div class="scale"><span>$10,000</span><span>$7,500</span><span>$5,000</span><span>$2,500</span><span>$0</span></div>
+</div>
+<div>
+<p class="eyebrow">Goal for the 2026-27 school year</p>
+<div class="big-num">$10,000</div>
+<p>About $3,000 to $4,000 is in the Thunder Dads fund now. The PFC Treasurer will confirm the exact number.</p>
+<div class="legend"><span><i></i>In the fund</span><span><i class="h"></i>Estimate range</span></div>
+<div class="feature"><b>This year's big project: a turf area for the yard</b><p>Most of the goal goes here. The rest covers Kids Night Out and fix-it materials.</p></div>
+<div class="ctas"><span class="btn" aria-disabled="true">Donate link added at launch</span></div>
+</div>
+</div>
+</div></section>
+
+<section id="why"><div class="wrap">
+<h2>Why a dads group</h2>
+<p class="sub">Dads and father figures are easy to miss in school life, and Thornhill has plenty of work that needs more hands. Thunder Dads gives every dad a simple way in: help at a Kids Night Out, take a fix-it job, or help raise money for something bigger.</p>
+<p class="rule"><strong>Free to join, no minimum.</strong> Give an hour or a whole Saturday.</p>
+</div></section>
+
+<section id="do"><div class="wrap">
+<h2>What we do</h2>
+<div class="grid3">
+<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22 3 6a14 14 0 0 1 18 0z"/><circle cx="10" cy="10" r="1.2"/><circle cx="14" cy="14" r="1.2"/><circle cx="13" cy="8" r="1"/></svg></div><h3>Kids Night Out</h3><p>A monthly evening for Thornhill kids, with pizza and volunteer parents in charge, while parents get a night off. Parents who stay and help watch the kids come free.</p></div>
+<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5 5L22 14l-8 8-2.3-2.3a4 4 0 0 0-5-5L4.4 12.4a4 4 0 0 1 5-5L12 4z"/></svg></div><h3>Fix-it projects</h3><p>Teachers and staff tell us what's broken, like wobbly desks, tired chairs, or the picket fence, and a dad takes the job on a workday.</p></div>
+<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div><h3>Bigger projects</h3><p>This year's big project is a turf area for the yard, and shade is on the list too. The dads raise the money and work with the school and the district to make them happen.</p></div>
+</div>
+</div></section>
+
+<section id="kno"><div class="wrap">
+<h2>Kids Night Out</h2>
+<p class="sub">Tickets are sold on Givebutter.</p>
+<div class="event">
+<div class="when">Next date<small>to be set</small></div>
+<div><strong>Kids Night Out</strong><br><span style="color:var(--muted)">Drop-off evening with pizza. Free for parents who stay and volunteer.</span></div>
+<span class="btn" aria-disabled="true" title="The Givebutter link is added when the next date is set">Tickets link added at launch</span>
+</div>
+<div class="card vote">
+<h3>Vote for the movie</h3>
+<p>Every ticket comes with one vote, and the movie with the most votes plays.</p>
+<form id="voteform"><fieldset><legend class="sr">Pick a movie</legend>
+<label><input type="radio" name="movie" value="Paddington 2"> Paddington 2</label>
+<label><input type="radio" name="movie" value="Toy Story"> Toy Story</label>
+<label><input type="radio" name="movie" value="My Neighbor Totoro"> My Neighbor Totoro</label>
+</fieldset><button class="btn" type="submit">Vote</button></form>
+<div class="done" id="votedone" role="status" aria-live="polite"></div>
+<p class="rule">Sample choices. In the live version this is a question on the Givebutter ticket, and the Kids Night Out owner picks the shortlist.</p>
+</div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Project board</h2>
+<p class="sub">Every request from a teacher or staff member lands here, so anyone can see who has it and where it stands.</p>
+<div class="lanes">
+<div class="lane big"><b>Big project</b><span>The year's main fundraising goal. This year, the turf area.</span></div>
+<div class="lane fix"><b>Fix it</b><span>Dad labor plus small materials from the fix-it fund.</span></div>
+<div class="lane fund"><b>Fund it</b><span>A bigger materials buy, under a per-project cap the dads set.</span></div>
+<div class="lane find"><b>Find it</b><span>Beyond the dads' budget. The dads help find the money.</span></div>
+</div>
+<div class="filters" role="group" aria-label="Filter projects">
+<button type="button" data-f="all" aria-pressed="true">All</button>
+<button type="button" data-f="big" aria-pressed="false">Big project</button>
+<button type="button" data-f="fix" aria-pressed="false">Fix it</button>
+<button type="button" data-f="fund" aria-pressed="false">Fund it</button>
+<button type="button" data-f="find" aria-pressed="false">Find it</button>
+</div>
+<div class="board" id="board">
+<article class="proj big" data-lane="big"><span class="tag">This year's big project</span><h3>Turf area for the yard</h3><p>This year's big project and the main focus of the $10,000 goal. Next up: a yard walk with the principal and one installer quote, then approval from the school and OUSD.</p><div class="meta"><span>Status: <b>Proposed</b></span><span>Owner: <b>Open</b></span><span>From: <b>Thunder Dads</b></span></div></article>
+<article class="proj fix" data-lane="fix"><span class="tag">Fix it</span><h3>Wobbly desks and chairs</h3><p>Repairs across classrooms. Dads bring the tools; small parts come from the fix-it fund.</p><div class="meta"><span>Status: <b>Proposed</b></span><span>Owner: <b>Open</b></span><span>From: <b>Teachers</b></span></div></article>
+<article class="proj fund" data-lane="fund"><span class="tag">Fund it</span><h3>Picket fence update</h3><p>Materials come from the Thunder Dads budget, and dads do the work on a workday.</p><div class="meta"><span>Status: <b>Proposed</b></span><span>Owner: <b>Open</b></span><span>From: <b>School</b></span></div></article>
+<article class="proj find" data-lane="find"><span class="tag">Find it</span><h3>Shade structure for the yard</h3><p>Also on the list. Construction on a public school site goes through the district, so the dads raise money and work with OUSD on approval and a certified installer.</p><div class="meta"><span>Status: <b>Proposed</b></span><span>Owner: <b>Open</b></span><span>From: <b>Thunder Dads</b></span></div></article>
+<article class="proj find" data-lane="find"><span class="tag">Find it</span><h3>Folding walls for the stage</h3><p>Estimated at $7,000 to $10,000, more than the dads can fund alone. The dads help find the money: DonorsChoose, the auction, or the PFC budget.</p><div class="meta"><span>Status: <b>Proposed</b></span><span>Owner: <b>Open</b></span><span>From: <b>Music teacher</b></span></div></article>
+<p class="empty" id="empty" hidden>Nothing in this lane yet.</p>
+</div>
+<p class="rule">Sample board built from the projects raised in October 2026. Lanes are suggestions; status and owners get set when the dads sort the list.</p>
+</div></section>
+
+<section id="request"><div class="wrap">
+<h2>Request a project</h2>
+<p class="sub">For teachers, staff, and the principal. Tell us what needs doing and we'll get back to you.</p>
+<form class="req" id="reqform" novalidate>
+<div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name"></div>
+<div><label for="f-role">Your role</label><select id="f-role" name="role"><option>Teacher</option><option>Staff</option><option>Principal</option><option>Parent</option></select></div>
+<div><label for="f-where">Room or place on campus</label><input id="f-where" name="where" placeholder="Room 6, the yard, the stage"></div>
+<div><label for="f-when">How soon</label><select id="f-when" name="when"><option>This week</option><option>This month</option><option>Whenever you can</option></select></div>
+<div class="full"><label for="f-what">What needs doing</label><textarea id="f-what" name="what" placeholder="Two desks in Room 6 wobble and one chair leg is cracked."></textarea></div>
+<div><label for="f-photo">Photo (optional)</label><input id="f-photo" name="photo" type="file" accept="image/*"></div>
+<div><label for="f-cost">Rough cost, if you know it</label><input id="f-cost" name="cost" inputmode="decimal" placeholder="$"></div>
+<div class="full"><button class="btn" type="submit">Send request</button></div>
+</form>
+<div class="done" id="done" role="status" aria-live="polite"><strong>Request received.</strong> In the live version this goes to the Thunder Dads request sheet, the coordinators get a WhatsApp alert, and the project shows up on the board above.</div>
+<p class="rule">Demo form. Nothing you type here leaves this page.</p>
+</div></section>
+
+<section id="join"><div class="wrap">
+<h2>Join Thunder Dads</h2>
+<ol class="steps">
+<li><div><h3>Join the WhatsApp community</h3><p>Groups for Kids Night Out, Walkathon, Auction Stuff, Thunder Games, and Announcements. Jump into the ones you care about.</p><span class="btn" aria-disabled="true">Invite link added at launch</span></div></li>
+<li><div><h3>Get cleared to volunteer</h3><p>OUSD asks every school volunteer to register, get a TB clearance, and complete mandated reporter training. Working without OUSD staff on site also needs fingerprints.</p><a class="btn ghost" href="https://www.oaklandedfund.org/programs/volunteer/volunteer-faq/">Oakland Ed Fund volunteer FAQ</a></div></li>
+<li><div><h3>Come to a meetup</h3><p>A regular dads meetup, day and place to be set.</p></div></li>
+</ol>
+</div></section>
+
+<section id="completed"><div class="wrap">
+<h2>Completed this school year</h2>
+<p class="sub">Every finished project, with the date and the dads who did it.</p>
+<table class="tbl"><thead><tr><th>Date</th><th>Project</th><th>Done by</th></tr></thead><tbody>
+<tr><td data-l="Date">To be filled in</td><td data-l="Project">Projects finished so far in 2026-27 go here</td><td data-l="Done by">Names to come</td></tr>
+</tbody></table>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div><strong>Thunder Dads</strong><br>The dads group at Thornhill Elementary, part of the Thornhill Parent Faculty Club.</div>
+<div><strong>Thornhill Elementary School</strong><br>5880 Thornhill Drive, Oakland, CA 94611<br><a href="https://thornhill.ousd.org/">thornhill.ousd.org</a></div>
+<div><strong>About this draft</strong><br>Proof of concept by Dan Smith, October 2026. Not an official PFC or OUSD page.</div>
+</div></footer>
+<nav class="tabbar" aria-label="Quick navigation"><a href="#why"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2z"/></svg>About</a><a href="#kno"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22 3 6a14 14 0 0 1 18 0z"/><circle cx="10" cy="10" r="1.2"/><circle cx="14" cy="14" r="1.2"/><circle cx="13" cy="8" r="1"/></svg>Night Out</a><a href="#projects"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>Projects</a><a href="#join"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.5a5 5 0 0 1 6 5"/></svg>Join</a></nav>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.filters button'),cards=document.querySelectorAll('#board .proj'),empty=document.getElementById('empty');
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.getAttribute('data-f'),shown=0;
+    btns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    cards.forEach(function(c){var on=f==='all'||c.getAttribute('data-lane')===f;c.hidden=!on;if(on)shown++});
+    empty.hidden=shown>0;
+  })});
+  var form=document.getElementById('reqform'),done=document.getElementById('done');
+  form.addEventListener('submit',function(e){e.preventDefault();done.classList.add('show');form.reset();done.focus&&done.focus();});
+  var vf=document.getElementById('voteform'),vd=document.getElementById('votedone');
+  vf.addEventListener('submit',function(e){e.preventDefault();var c=vf.querySelector('input[name=movie]:checked');vd.textContent=c?'Your vote: '+c.value+'. Thanks!':'Pick a movie first.';vd.classList.add('show');});
+})();</script>
+</body></html>
