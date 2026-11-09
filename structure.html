@@ -1,0 +1,129 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow">
+<title>How Thunder Dads runs | Thunder Dads</title><meta name="description" content="Three ways to organize Thunder Dads, how a funding request gets decided, and what to settle at the meeting.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--fg:#12203a;--muted:#5b6680;--line:#d9deea;--navy:#0b3a7a;--amber:#a85c00;--soft:#fff1d9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}[id]{scroll-margin-top:12px}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 "Atkinson Hyperlegible",system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header{padding:26px 0 6px}.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+h1{font-family:Fredoka,system-ui,sans-serif;font-weight:700;font-size:clamp(30px,6.4vw,46px);line-height:1.06;margin:0 0 10px;max-width:18ch}h1 span{color:var(--amber)}
+.lede{font-size:19px;max-width:60ch;margin:0 0 10px}.when{color:var(--muted);margin:0 0 14px}
+.tbd{background:var(--soft);color:var(--amber);padding:0 5px;border-radius:3px;font-weight:700}
+nav.jump{display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 0 4px;border-top:1px solid var(--line);font-size:15px}nav.jump a{color:var(--navy);font-weight:700;text-decoration:none}nav.jump a:hover{text-decoration:underline}
+h2{font-family:Fredoka,sans-serif;font-weight:600;font-size:clamp(23px,4.4vw,28px);margin:34px 0 10px;color:var(--navy)}
+h3{font-family:Fredoka,sans-serif;font-weight:600;font-size:21px;margin:0 0 4px}
+ul.agree{padding-left:1.15em;margin:0 0 6px;max-width:68ch}ul.agree li{margin:0 0 8px}
+.who{color:var(--muted);font-size:15px}
+.rule{border-left:3px solid var(--amber);padding:2px 0 2px 14px;margin:18px 0 0;max-width:68ch}.rule h3{font-size:19px}.rule p{margin:0}
+.note{color:var(--muted);font-size:15px;margin:10px 0 0;max-width:80ch}
+.prop{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--amber);margin-right:2px}
+table.cmp{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:16px}
+table.cmp th,table.cmp td{text-align:left;vertical-align:top;padding:11px 14px;border-top:1px solid var(--line)}
+table.cmp thead th{border-top:0;font-family:Fredoka,sans-serif;font-weight:600;font-size:21px;color:var(--fg);background:#eef3fb;width:30%}
+table.cmp thead th:first-child{width:10%}
+table.cmp tbody th{font-size:14px;color:var(--amber);font-weight:700;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;padding-right:6px}
+.from{display:block;font-family:"Atkinson Hyperlegible",sans-serif;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 2px}
+.short{display:block;font-family:"Atkinson Hyperlegible",sans-serif;font-size:15px;font-weight:400;color:var(--muted);margin-top:4px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.mcards{display:none;gap:12px}
+.model,.req{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.model .from{margin:0}.model .short{margin:0 0 8px}
+dl{margin:0}dt{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--amber);margin:10px 0 1px}dd{margin:0}
+.reqs{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.req .meta{color:var(--muted);font-size:15px;margin:0 0 8px}.req p{margin:0 0 8px}
+.req .first{border-left:3px solid var(--navy);padding:1px 0 1px 10px;font-weight:700}
+ol.ask{padding-left:1.3em;margin:0;max-width:68ch}ol.ask li{margin:0 0 7px}
+.cols{display:grid;gap:8px 28px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+ol.decide{padding-left:1.3em;margin:0;max-width:72ch}ol.decide li{margin:0 0 10px}ol.decide li b{display:block}
+ul.qs{padding-left:1.15em;margin:0;max-width:68ch}ul.qs li{margin:0 0 7px}
+footer{color:var(--muted);font-size:14px;padding:26px 0 44px;border-top:1px solid var(--line);margin-top:34px}footer p{margin:0 0 6px}
+@media(max-width:820px){table.cmp{display:none}.mcards{display:grid}}
+@media print{body{background:#fff;font-size:10.5px;line-height:1.35}.wrap{max-width:none;padding:0}nav.jump{display:none}header{padding:0}h1{font-size:22px;margin:0 0 4px}.lede{font-size:11.5px}h2{font-size:15px;margin:12px 0 5px}h3{font-size:12.5px}table.cmp{font-size:9.5px;border-radius:0}table.cmp th,table.cmp td{padding:4px 6px}table.cmp thead th{font-size:12px}.mcards{display:none!important}table.cmp{display:table!important}.req,.model{padding:6px 8px;break-inside:avoid}dt{font-size:8.5px;margin:4px 0 0}section{break-inside:avoid}footer{padding:8px 0;margin-top:10px}@page{margin:10mm}}
+</style></head><body>
+<header><div class="wrap"><p class="eyebrow">Thunder Dads, Thornhill Elementary</p>
+<h1>Three ways to run <span>Thunder Dads</span></h1>
+<p class="lede">Our five Kids Night Outs raised <b>$13,155</b>, and requests for that money have started to arrive. Here are three ways to organize, how a request gets decided under each, and what to settle when we meet.</p>
+<p class="when">Meeting: <span class="tbd">date and place set by the poll</span></p>
+<nav class="jump" aria-label="On this page"><a href="#agree">Where we agree</a><a href="#models">Three models</a><a href="#requests">Requests</a><a href="#decide">This meeting</a><a href="#pfc">For the PFC</a></nav>
+</div></header>
+<main class="wrap">
+<section id="agree"><h2>Where we already agree</h2>
+<ul class="agree">
+<li>The club decides spending together, by a clear process. <span class="who">Jason, Scott, Dilip</span></li>
+<li>This year's big projects are shade for the portables and turf on the main playground. <span class="who">Scott, Jason</span></li>
+<li>Scott's budget sorts spending into three areas: running costs (Kids Night Out, chipping in for events like the Walkathon), small school fixes (screws, paint, small lumber, brooms), and the big projects. <span class="who">Scott</span></li>
+<li>The money gets spent this school year. The PFC carries over only "the auction and the fund in need," and Principal Scott has asked us for a plan to spend ours this year. <span class="who">Selam, PFC call, October 13</span></li>
+</ul>
+<div class="rule"><h3>Every model keeps us inside the PFC</h3>
+<p>Our money already sits in the PFC's account, and the PFC Treasurer collects money, pays expenses, and reports finances at every PFC meeting. A separate 501(c)(3) would mean our own bank account, yearly IRS and state filings, and officers of record. Jason is asking the Montclair Elementary dads club how they handle it.</p></div>
+</section>
+<section id="models"><h2>Three models</h2>
+<table class="cmp"><thead><tr><th scope="col"><span class="vh">Topic</span></th><th scope="col"><span class="from">Starts from Jason's note</span>Officer club<span class="short">Three or four officers, two-year terms, votes at meetings.</span></th><th scope="col"><span class="from">Starts from how the BAC runs</span>Co-chairs and working groups<span class="short">Two co-chairs, working groups, meetings on the school calendar.</span></th><th scope="col"><span class="from">Mixes both</span>Core team plus lanes<span class="short">Four seats, one-year terms, dollar limits.</span></th></tr></thead>
+<tbody><tr><th scope="row">Roles</th><td>President, Vice President, Secretary. Add a Treasurer; Ali has offered.</td><td>Two co-chairs share the lead. Working groups own the work: the BAC has Policies and Procedures, Events, and Communications; ours could be Kids Night Out, fix-its, and big projects. Any parent can help as an Ally.</td><td>Four seats: Lead (or co-leads), Treasurer, Secretary, and PFC and principal liaison. Lane leads for Kids Night Out, fix-its, and big projects.</td></tr>
+<tr><th scope="row">Terms</th><td>Two years minimum.</td><td><span class="prop">Proposal</span> Co-chairs serve two school years, starting a year apart, so one always knows the ropes.</td><td>One school year, renewable. Two dads can share a seat.</td></tr>
+<tr><th scope="row">Decisions</th><td>Votes at club meetings set on a yearly calendar.</td><td>General meetings on the school calendar; the BAC's next are November 9, February 1, and May 3. <span class="prop">Proposal</span> Each working group decides inside its lane, and the general meeting decides the rest.</td><td>By dollar amount, as in Spending.</td></tr>
+<tr><th scope="row">Spending</th><td>Every spend gets a meeting vote. Officers spend within what was approved.</td><td><span class="prop">Proposal</span> Each working group gets a set amount at the start of the year and spends within it. Anything beyond goes to a general meeting.</td><td>Under <b>$250</b>: any lane lead, from small fixes. <b>$250</b> to <b>$1,000</b>: the core team agrees in WhatsApp. Over <b>$1,000,</b> or outside this year's plan: a club vote at a meeting or a 48-hour poll.</td></tr>
+<tr><th scope="row">PFC and principal</th><td>One officer is the standing liaison.</td><td>The BAC advises school leadership as a subcommittee of the School Site Council and works with the PFC on events. Its Allies reach it through the PFC board's Inclusion and Belonging chair. <span class="prop">Proposal</span> One co-chair is our PFC contact.</td><td>The liaison gives the dads update the PFC asks for at each monthly meeting.</td></tr>
+<tr><th scope="row">Strong at</th><td>Clear owners and continuity. The PFC and the principal always know who to call.</td><td>Two people share the load, with clear lanes. Thornhill and the PFC already work with this shape.</td><td>Spreads the work. Quick on small things, and the club keeps control of big money. Terms match the PFC's one-year money.</td></tr>
+<tr><th scope="row">Watch for</th><td>Two-year seats are a big ask. Urgent requests wait for the next meeting.</td><td>The BAC's formal home is the School Site Council; ours would be the PFC, since it holds our money. Each working group needs a lead.</td><td>More seats to fill. The dollar limits need a look each year.</td></tr></tbody></table>
+<div class="mcards"><article class="model" id="model-a"><p class="from">Starts from Jason's note</p><h3>Officer club</h3><p class="short">Three or four officers, two-year terms, votes at meetings.</p>
+<dl><dt>Roles</dt><dd>President, Vice President, Secretary. Add a Treasurer; Ali has offered.</dd><dt>Terms</dt><dd>Two years minimum.</dd><dt>Decisions</dt><dd>Votes at club meetings set on a yearly calendar.</dd><dt>Spending</dt><dd>Every spend gets a meeting vote. Officers spend within what was approved.</dd><dt>PFC and principal</dt><dd>One officer is the standing liaison.</dd><dt>Strong at</dt><dd>Clear owners and continuity. The PFC and the principal always know who to call.</dd><dt>Watch for</dt><dd>Two-year seats are a big ask. Urgent requests wait for the next meeting.</dd></dl></article>
+<article class="model" id="model-b"><p class="from">Starts from how the BAC runs</p><h3>Co-chairs and working groups</h3><p class="short">Two co-chairs, working groups, meetings on the school calendar.</p>
+<dl><dt>Roles</dt><dd>Two co-chairs share the lead. Working groups own the work: the BAC has Policies and Procedures, Events, and Communications; ours could be Kids Night Out, fix-its, and big projects. Any parent can help as an Ally.</dd><dt>Terms</dt><dd><span class="prop">Proposal</span> Co-chairs serve two school years, starting a year apart, so one always knows the ropes.</dd><dt>Decisions</dt><dd>General meetings on the school calendar; the BAC's next are November 9, February 1, and May 3. <span class="prop">Proposal</span> Each working group decides inside its lane, and the general meeting decides the rest.</dd><dt>Spending</dt><dd><span class="prop">Proposal</span> Each working group gets a set amount at the start of the year and spends within it. Anything beyond goes to a general meeting.</dd><dt>PFC and principal</dt><dd>The BAC advises school leadership as a subcommittee of the School Site Council and works with the PFC on events. Its Allies reach it through the PFC board's Inclusion and Belonging chair. <span class="prop">Proposal</span> One co-chair is our PFC contact.</dd><dt>Strong at</dt><dd>Two people share the load, with clear lanes. Thornhill and the PFC already work with this shape.</dd><dt>Watch for</dt><dd>The BAC's formal home is the School Site Council; ours would be the PFC, since it holds our money. Each working group needs a lead.</dd></dl></article>
+<article class="model" id="model-c"><p class="from">Mixes both</p><h3>Core team plus lanes</h3><p class="short">Four seats, one-year terms, dollar limits.</p>
+<dl><dt>Roles</dt><dd>Four seats: Lead (or co-leads), Treasurer, Secretary, and PFC and principal liaison. Lane leads for Kids Night Out, fix-its, and big projects.</dd><dt>Terms</dt><dd>One school year, renewable. Two dads can share a seat.</dd><dt>Decisions</dt><dd>By dollar amount, as in Spending.</dd><dt>Spending</dt><dd>Under <b>$250</b>: any lane lead, from small fixes. <b>$250</b> to <b>$1,000</b>: the core team agrees in WhatsApp. Over <b>$1,000,</b> or outside this year's plan: a club vote at a meeting or a 48-hour poll.</dd><dt>PFC and principal</dt><dd>The liaison gives the dads update the PFC asks for at each monthly meeting.</dd><dt>Strong at</dt><dd>Spreads the work. Quick on small things, and the club keeps control of big money. Terms match the PFC's one-year money.</dd><dt>Watch for</dt><dd>More seats to fill. The dollar limits need a look each year.</dd></dl></article></div>
+<p class="note">Pick one, or mix parts. Dollar limits and anything marked Proposal are starting points for the club to set. The BAC's public page covers its roles, working groups, meetings, and school ties; we've asked Jon how it handles terms and money.</p>
+</section>
+<section id="requests"><h2>How a request gets decided</h2>
+<div class="cols">
+<div><h3>Every request answers six questions</h3>
+<ol class="ask">
+<li>What is it, and who does it help?</li>
+<li>How much, and what does it buy?</li>
+<li>When is the money needed?</li>
+<li>Will dads do any of the work?</li>
+<li>Who is asking, and who owns it?</li>
+<li>Which area: running costs, small fixes, big projects, or outside the plan?</li>
+</ol></div>
+<div><h3>A good project for us</h3>
+<ul class="qs">
+<li>Helps Thornhill kids or teachers directly.</li>
+<li>Uses dads' time or skills, beyond money.</li>
+<li>Can be finished or funded this school year.</li>
+<li>Has the principal on board, with any OUSD approval known.</li>
+</ul>
+<h3 style="margin-top:16px">One decision log</h3>
+<p style="margin:0;max-width:60ch">Date, request, amount, decision, vote, owner, receipt filed. The Secretary keeps it, or a co-chair in the BAC model.</p></div>
+</div>
+<h2 style="font-size:23px">The two requests on the table</h2>
+<div class="reqs"><article class="req"><h3>Front strip planting</h3><p class="meta">David Valdez, November 6. Needed: before November 14.</p><p><b>$700</b> for plants and materials for the strip in front of the school. Parents are planting on Saturday, November 14, 10 AM to 2 PM, and Scott shared the sign-up sheet.</p>
+<dl><dt>Officer club</dt><dd>Vote at this week's meeting.</dd><dt>Co-chairs and working groups</dt><dd>Not in any working group's amount: the co-chairs bring it to the club before November 14.</dd><dt>Core team plus lanes</dt><dd>Outside this year's plan: a club vote this week, or a 48-hour poll that closes before November 14.</dd></dl></article>
+<article class="req"><h3>Staff Safety Team kit</h3><p class="meta">The Staff Safety Team, through Jon, November 3. Needed: not stated.</p><p>Grade-colored lanyards, flashlights, batteries, and games for the school's emergency container. The PFC didn't budget for it.</p>
+<p class="first">Every model starts the same way: get the item list and a cost.</p><dl><dt>Officer club</dt><dd>Vote at the next meeting.</dd><dt>Co-chairs and working groups</dt><dd>The fix-it working group prices it and pays from its amount if it fits.</dd><dt>Core team plus lanes</dt><dd>Routed by amount once the cost is known.</dd></dl></article></div>
+</section>
+<section id="decide"><h2>To settle at this meeting</h2>
+<ol class="decide">
+<li><b>Agree on the purpose.</b> Draft: Thunder Dads puts dads' time, skills, and money to work for Thornhill. The friendships come with it.</li>
+<li><b>Pick a model, or a mix.</b></li>
+<li><b>Fill the seats and set the terms.</b> Ali has offered to be Treasurer.</li>
+<li><b>Set the dollar limits.</b> Start the request questions and the decision log.</li>
+<li><b>Decide the $700 planting request.</b> Plants get bought before November 14.</li>
+<li><b>Ask the Safety Team for its list and cost.</b></li>
+<li><b>Pick a money check-in.</b> Balance, money in, and money out at every club meeting.</li>
+</ol>
+</section>
+<section id="pfc"><h2>Questions for the PFC</h2>
+<p style="margin:0 0 8px">For Jon, Selam, and the PFC Treasurer:</p>
+<ul class="qs">
+<li>What is the Thunder Dads balance today, after Kids Night Out costs?</li>
+<li>Does dads spending need PFC board sign-off above some amount?</li>
+<li>How do reimbursements work: receipts to the Treasurer, or a PFC card?</li>
+<li>Can money for turf or shade carry past June, for example through the auction's fund-a-need?</li>
+</ul>
+</section>
+</main>
+<footer><div class="wrap"><p>Draft for discussion, November 9, 2026.</p>
+<p>Sources: the Thunder Dads WhatsApp thread, November 6 to 9; the PFC call on October 13; Givebutter totals for the five Kids Night Out campaigns, November 5; the PFC board roles page; the BAC's page on thornhill.ousd.org, read November 9.</p></div></footer>
+</body></html>
